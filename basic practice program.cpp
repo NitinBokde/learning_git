@@ -2,6 +2,9 @@
 using namespace std;
 int main()
 {
-    cout<<"hello world";
-    cout<<"learning git";
+    int n;
+    cin>>n;
+    if(n%2==0)
+        cout<<"even";
+    else cout<<"odd";
 }
